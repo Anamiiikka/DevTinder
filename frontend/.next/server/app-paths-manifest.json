@@ -1,0 +1,9 @@
+{
+  "/discover/page": "app/discover/page.js",
+  "/register/page": "app/register/page.js",
+  "/login/page": "app/login/page.js",
+  "/onboarding/page": "app/onboarding/page.js",
+  "/chat/[matchId]/page": "app/chat/[matchId]/page.js",
+  "/profile/page": "app/profile/page.js",
+  "/matches/page": "app/matches/page.js"
+}

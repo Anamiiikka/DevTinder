@@ -1,15 +1,26 @@
 {
-  "name": "devtinder",
+  "name": "devconnect",
   "version": "1.0.0",
-  "description": "Tinder for devs",
-  "main": "index.js",
+  "description": "DevConnect - Hackathon Teammate Matching Platform",
   "scripts": {
-    "start":"node src/App.js",
-    "dev":" nodemon src/App.js"
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm start",
+    "build:frontend": "cd frontend && npm run build"
   },
-  "author": "Anamika",
+  "keywords": [
+    "hackathon",
+    "matching",
+    "mern",
+    "socket.io",
+    "react"
+  ],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "mongodb": "^7.1.0"
   }
 }
